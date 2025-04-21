@@ -1,0 +1,19 @@
+digraph {
+	A [label="Data Collection" fillcolor=lightblue shape=rectangle style=filled]
+	B [label="Data Preprocessing" fillcolor=lightgreen shape=rectangle style=filled]
+	C [label="Exploratory Data Analysis (EDA)" fillcolor=lightyellow shape=rectangle style=filled]
+	D [label="Feature Engineering" fillcolor=lightcoral shape=rectangle style=filled]
+	E [label="Data Splitting (Train/Test)" fillcolor=lightpink shape=rectangle style=filled]
+	F [label="Model Selection & Training" fillcolor=lightskyblue shape=rectangle style=filled]
+	G [label="Model Evaluation" fillcolor=lightgray shape=rectangle style=filled]
+	H [label="Hyperparameter Tuning" fillcolor=lightcyan shape=rectangle style=filled]
+	I [label="Model Deployment" fillcolor=lightgoldenrodyellow shape=rectangle style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+}
